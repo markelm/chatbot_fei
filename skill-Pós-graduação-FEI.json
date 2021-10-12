@@ -1,0 +1,1967 @@
+{
+  "intents": [
+    {
+      "intent": "Docente",
+      "examples": [
+        {
+          "text": "Corpo docente"
+        },
+        {
+          "text": "Docente"
+        },
+        {
+          "text": "Gostaria de saber quais professores fazem parte do corpo docente"
+        },
+        {
+          "text": "Professores"
+        },
+        {
+          "text": "Quais os professores?"
+        },
+        {
+          "text": "Quais os professores que compõem o corpo docente?"
+        },
+        {
+          "text": "Quais os professores que fazem parte do corpo docente?"
+        },
+        {
+          "text": "Quem são os professores?"
+        },
+        {
+          "text": "Quem são os professores que compõem o corpo docente?"
+        },
+        {
+          "text": "Quem são os professores que fazem parte do corpo docente?"
+        }
+      ],
+      "description": "Corpo docente"
+    },
+    {
+      "intent": "Inscricao",
+      "examples": [
+        {
+          "text": "Como faço pra me inscrever?"
+        },
+        {
+          "text": "Como me inscrever no processo seletivo"
+        },
+        {
+          "text": "Como me matricular?"
+        },
+        {
+          "text": "Gostaria de me inscrever"
+        },
+        {
+          "text": "Inscrever"
+        },
+        {
+          "text": "Inscrição"
+        },
+        {
+          "text": "Matricula"
+        },
+        {
+          "text": "Processo seletivo"
+        },
+        {
+          "text": "Quero me inscrever"
+        },
+        {
+          "text": "Quero me inscrever no processo seletivo?"
+        },
+        {
+          "text": "Quero me matricular"
+        }
+      ],
+      "description": "Inscrição"
+    },
+    {
+      "intent": "LinhaPesquisa",
+      "examples": [
+        {
+          "text": "Gostaria de saber quais linhas de pesquisa são oferecidas"
+        },
+        {
+          "text": "Gostaria de saber quais pesquisas posso desenvolver?"
+        },
+        {
+          "text": "Linhas"
+        },
+        {
+          "text": "Linhas de pesquisa"
+        },
+        {
+          "text": "Pesquisas"
+        },
+        {
+          "text": "Quais as linhas de pesquisa?"
+        },
+        {
+          "text": "Quais linhas de pesquisa oferecidas?"
+        },
+        {
+          "text": "Que pesquisas posso desenvolver?"
+        }
+      ],
+      "description": "Linhas de pesquisa por área de concentração"
+    },
+    {
+      "intent": "MensalidadeBolsas",
+      "examples": [
+        {
+          "text": "Bolsa de estudos"
+        },
+        {
+          "text": "Bolsas"
+        },
+        {
+          "text": "Como faço para obter bolsa"
+        },
+        {
+          "text": "Como obtenho bolsa de estudos"
+        },
+        {
+          "text": "Informação de mensalidade e bolsas"
+        },
+        {
+          "text": "Mensalidade"
+        },
+        {
+          "text": "Mensalidade e bolsas"
+        },
+        {
+          "text": "Preço da mensalidade"
+        },
+        {
+          "text": "Valor da mensalidade"
+        }
+      ],
+      "description": "Informação sobre mensalidades e bolsas"
+    },
+    {
+      "intent": "Não",
+      "examples": [
+        {
+          "text": "Não"
+        }
+      ],
+      "description": "Não"
+    },
+    {
+      "intent": "Novaconsulta",
+      "examples": [
+        {
+          "text": "Informação"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Ola"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Pergunta"
+        },
+        {
+          "text": "Solicitar informação"
+        },
+        {
+          "text": "Uma pergunta"
+        }
+      ],
+      "description": "Nova consulta"
+    },
+    {
+      "intent": "ProcessoSeletivo",
+      "examples": [
+        {
+          "text": "Como faço para me inscrever?"
+        },
+        {
+          "text": "Como faço para me matricular?"
+        },
+        {
+          "text": "Como me matricular?"
+        },
+        {
+          "text": "Quero informações de matrícula"
+        },
+        {
+          "text": "Quero me inscrever"
+        },
+        {
+          "text": "Quero me matricular"
+        }
+      ],
+      "description": "Processo seletivo"
+    },
+    {
+      "intent": "ProcessoSeletivoDoutorado",
+      "examples": [
+        {
+          "text": "Como faço papa me matricular no doutorado?"
+        },
+        {
+          "text": "Como faço para me inscrever no doutorado?"
+        },
+        {
+          "text": "Doutorado"
+        },
+        {
+          "text": "Inscrição doutorado"
+        },
+        {
+          "text": "Matrícula doutorado"
+        },
+        {
+          "text": "PhD"
+        },
+        {
+          "text": "Processo Seletivo Doutorado"
+        },
+        {
+          "text": "Quero me inscrever no doutorado"
+        },
+        {
+          "text": "Quero me inscrever no programa de doutorado"
+        },
+        {
+          "text": "Quero me matricular no doutorado"
+        },
+        {
+          "text": "Quero me matricular no programa de doutorado"
+        }
+      ],
+      "description": "Processo seletivo doutrorado"
+    },
+    {
+      "intent": "ProcessoSeletivoMestrado",
+      "examples": [
+        {
+          "text": "Como faço para me inscrever no mestrador?"
+        },
+        {
+          "text": "Como faço para me matricular no mestrado?"
+        },
+        {
+          "text": "Inscrição mestrado"
+        },
+        {
+          "text": "Masters"
+        },
+        {
+          "text": "Matrícula mestrado"
+        },
+        {
+          "text": "Mestrado"
+        },
+        {
+          "text": "MS"
+        },
+        {
+          "text": "Processo seletivo mestrado"
+        },
+        {
+          "text": "Quero me inscrever no mestado"
+        },
+        {
+          "text": "Quero me inscrever no programa de mestrado"
+        },
+        {
+          "text": "Quero me matricular no programa de mestrado"
+        }
+      ],
+      "description": "Processo seletivo mestrado"
+    },
+    {
+      "intent": "Sim",
+      "examples": [
+        {
+          "text": "Sim"
+        }
+      ],
+      "description": "Sim"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Areas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Inteligência Artificial Aplicada à Automação e Robótica",
+          "synonyms": [
+            "AI",
+            "ai e robotica",
+            "AI e Robótica",
+            "Automação",
+            "Automação e Robótica",
+            "ia",
+            "inteligencia aritificial",
+            "robos",
+            "robotica",
+            "Robótica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nanoeletrônica e Circuitos Integrados",
+          "synonyms": [
+            "CI",
+            "circuitos",
+            "Circuitos Integrados",
+            "nano",
+            "Nanoeletrônica",
+            "NCI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Processamento de Sinais e Imagens",
+          "synonyms": [
+            "imagens",
+            "Processamento de Imagens",
+            "Processamento de Sinais",
+            "processamento imagens",
+            "processamento sinais",
+            "process sinais",
+            "psi",
+            "sinais"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Doutorado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Processo seletivo doutorado",
+          "synonyms": [
+            "Doutorado"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ProcessoSeletivo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Processo Seletivo Doutorado",
+          "synonyms": [
+            "Doutorado",
+            "PhD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Processo Seletivo Mestrado",
+          "synonyms": [
+            "Mestrado",
+            "MS"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Professores",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Carlos Eduardo Thomaz",
+          "synonyms": [
+            "Thomaz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Flavio Tonidandel",
+          "synonyms": [
+            "Tonidandel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guilherme Alberto Wachs Lopes",
+          "synonyms": [
+            "Wachs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ivandro Sanches",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marcelo Antonio Pavanello",
+          "synonyms": [
+            "Pavanello"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maria Claudia Ferrari de Castro",
+          "synonyms": [
+            "Castro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Michelly de Souza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paulo Eduardo Santos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paulo Sérgio Silva Rodrigues",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Plinio Thomaz Aquino Júnior",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reinaldo Augusto da Costa Bianchi",
+          "synonyms": [
+            "Bianchi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Renato Camargo Giacomini",
+          "synonyms": [
+            "Giacomini"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rodrigo Trevisoli Doria",
+          "synonyms": [
+            "Trevisoli"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Salvador Pinillos Gimenez",
+          "synonyms": [
+            "Pinillos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bem vindo ao assistente FEI-Pós."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Docente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você gostaria de informações sobre o corpo docente do programa de pós-graduação em Engenharia Elétrica da FEI?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910150261",
+      "conditions": "#Docente",
+      "dialog_node": "Em outros casos",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Não",
+      "parent": "node_9_1633997622927",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_10_1633998914603",
+      "previous_sibling": "node_4_1633998893191"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Flavio Tonidandel\nÁrea: Inteligência Artificial Aplicada à Automação e Robótica\n\nTópicos de Pesquisa\n\n• Robótica Autônoma Inteligente\n• Inteligência Artificial Aplicada\n• Automação Inteligente\n• Robótica Educacional\nflaviot@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Flavio Tonidandel)",
+      "dialog_node": "node_10_1634004702200",
+      "previous_sibling": "node_2_1634004631639"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Michelly de Souza\nÁrea: Nanoeletrônica e Circuitos Integrados\n\nTópicos de Pesquisa\n\n• Caracterização Elétrica e Simulação de Dispositivos Eletrônicos\n• Dispositivos Eletrônicos para Aplicações de Baixo Consumo\n• Transistores Nanométricos de Múltiplas Portas\n• Transistores de Alto Desempenho Analógico\n• Eletrônica Criogênica\nmichelly@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Michelly de Souza)",
+      "dialog_node": "node_10_1634004845912",
+      "previous_sibling": "node_9_1634004824962"
+    },
+    {
+      "type": "standard",
+      "title": "Linha de pesquisa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual dessas áreas de concentração você tem interesse?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "NANOELETRÔNICA E CIRCUITOS INTEGRADOS"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "INTELIGÊNCIA ARTIFICIAL APLICADA À AUTOMAÇÃO E ROBÓTICA"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "PROCESSAMENTO DE SINAIS E IMAGENS"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910150261",
+      "conditions": "#LinhaPesquisa",
+      "dialog_node": "node_1_1633910357327",
+      "previous_sibling": "Em outros casos"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disciplinas (Nanoeletrônica  e Circuitos integrados):\n\nAcompanhamento de Dissertação / Tese\nAspectos Específicos de Transistores Nanométrico\nCaracterização Elétrica de Dispositivos MOS\nCircuitos e Sistemas Analógicos\nDispositivos Semicondutores\nDispositivos Semicondutores Implementados em Tecnologia SOI\nDispositivos SOI MOSFETs de Múltiplas Portas\nFabricação e Modelagem de Transistores MOS: Transistores Nanométricos e TFTs.\nInfluência da Temperatura na Operação de Dispositivos Eletrônicos\nIntrodução ao Projeto de Circuitos Integrados Dedicados\nModelagem de Transistores MOS em tecnologia SOI\nSimulação de Processos e Dispositivos Eletrônicos\nTópicos Avançados de Projetos de Circuitos Integrados Analógicos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para saber mais acesse:\nhttps://portal.fei.edu.br/mestrado-e-doutorado-em-engenharia-eletrica/#nci"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633911190092",
+      "conditions": "#Sim",
+      "dialog_node": "node_1_1633912418013"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disciplinas (Processamento de Sinais e Imagens):\n\nAcompanhamento de Dissertação / Tese\nAplicações em Processamento de Sinais\nBiopotenciais: Características, Aquisição e Processamento\nFundamentos da Visão Computacional\nInteligência Computacional\nIntrodução à Engenharia Biomédica\nIntrodução à Pesquisa Científica\nMétodos Numéricos Aplicados em Análise de Sinais\nProcessamento de Sinais Discretos no Tempo\nProcessamento do Sinal de Voz\nTécnicas Avançadas de Programação\nRedação Científica\nReconhecimento de Padrões em Estatística"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para saber mais acesse:\nhttps://portal.fei.edu.br/mestrado-e-doutorado-em-engenharia-eletrica#ps2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1633913805482",
+      "conditions": "#Sim",
+      "dialog_node": "node_1_1633914864866"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1633914864866",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_1_1633915595869"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1633914715687",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_1_1633915684723",
+      "previous_sibling": "node_5_1633915676139"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reinaldo Augusto da Costa Bianchi\nÁrea: Inteligência Artificial Aplicada à Automação e Robótica\n\nTópicos de Pesquisa\n\n• Aprendizado por Reforço\n• Aprendizado Profundo\n• Robôs Humanoides\n• Controle de Robôs Móveis\n• Visão Computacional Aplicada à Robótica\n• Inteligência Artificial Aplicada a Finanças e Mercados Financeiros\nrbianchi@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Reinaldo Augusto da Costa Bianchi)",
+      "dialog_node": "node_1_1634004504094",
+      "previous_sibling": "node_8_1634004443836"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1634003823532",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_1_1634005254298",
+      "previous_sibling": "node_4_1634005234526"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1634004631639",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_1_1634005474620"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Corpo docente:\n\nCarlos Eduardo Thomaz\nFlavio Tonidandel\nGuilherme Alberto Wachs Lopes\nIvandro Sanches\nMarcelo Antonio Pavanello\nMaria Claudia Ferrari de Castro\nMichelly de Souza\nPaulo Eduardo Santos\nPaulo Sérgio Silva Rodrigues\nPlinio Thomaz Aquino Júnior\nReinaldo Augusto da Costa Bianchi\nRenato Camargo Giacomini\nRodrigo Trevisoli Doria\nSalvador Pinillos Gimenez\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Gostaria de saber sobre algum professor específico?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Em outros casos",
+      "conditions": "#Sim",
+      "dialog_node": "node_2_1633909061306"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disciplinas (Inteligência Artificial Aplicada à Automação e Robótica):\nAcompanhamento de Dissertação / Tese\nAlgoritmos Computacionais\nEngenharia de Software em Experimentos Científicos\nFundamentos da Inteligência Artificial\nInteligência Artificial Probabilística\nInteração Humano-Computador em Sistemas Adaptativos\nProgramação Científica\nRobótica Móvel\nTópicos Especiais em Aprendizagem"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para saber mais acesse:\nhttps://portal.fei.edu.br/mestrado-e-doutorado-em-engenharia-eletrica/#ia"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633913472154",
+      "conditions": "#Sim",
+      "dialog_node": "node_2_1633914715687"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1633914864866",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_2_1633915649757",
+      "previous_sibling": "node_1_1633915595869"
+    },
+    {
+      "type": "standard",
+      "title": "Não",
+      "parent": "node_4_1633997624717",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_2_1633999004374",
+      "previous_sibling": "node_8_1633998974269"
+    },
+    {
+      "type": "standard",
+      "title": "Não",
+      "parent": "node_6_1633999266439",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_2_1633999496025",
+      "previous_sibling": "node_6_1633999478741"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Salvador Pinillos Gimenez\nÁrea: Nanoeletrônica e Circuitos Integrados\n\nTópicos de Pesquisa\n\n• Projeto de Dispositivos Semicondutores\n• Projeto de Circuitos Integrados\n• Projeto de Microprocessadores\n• Projeto de Células Solares (Geometrias não Convencionais)\n• Eletrônica Evolucionária\n• Internet das Coisas (Fábrica de Plantas Verticais)\nsgimenez@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Salvador Pinillos Gimenez)",
+      "dialog_node": "node_2_1634003823532"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Carlos Eduardo Thomaz\nÁrea: Processamento de Sinais e Imagens\n\nTópicos de Pesquisa\n\n• Reconhecimento de padrões\n• Percepção Cognitiva\n• Aprendizado de Máquina\ncet@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Carlos Eduardo Thomaz)",
+      "dialog_node": "node_2_1634004631639",
+      "previous_sibling": "node_6_1634004586976"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Marcelo Antonio Pavanello\nÁrea: Nanoeletrônica e Circuitos Integrados\n\nTópicos de Pesquisa\n\n• Nanotecnologia e Nanoeletrônica\n• Modelagem Analítica Compacta\n• Extração de Parâmetros Elétricos\n• Eletrônica em Temperaturas Extremas\n• Simulação Spice e TCAD Tridimensional\npavanello@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Marcelo Antonio Pavanello)",
+      "dialog_node": "node_2_1634004794435",
+      "previous_sibling": "node_6_1634004762073"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1634004824962",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#sim",
+      "dialog_node": "node_2_1634005793056"
+    },
+    {
+      "type": "standard",
+      "title": "Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sobre qual dos seguintes tópicos você deseja informação?\n- Corpo docente \n- Linhas de pesquisa \n- Inscrição \n- Mensalidades e Bolsas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_3_1633909228934",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "parent": "Em outros casos",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_3_1633909812610",
+      "previous_sibling": "node_2_1633909061306"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As linhas de pesquisa disponíveis em Processamento de Sinais e Imagens são:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "PROCESSAMENTO DE SINAIS ANALÓGICOS E DIGITAIS\n\nPROCESSAMENTO DE INFORMAÇÃO VISUAL E COGNITIVA\n\nRECONHECIMENTO DE PADRÕES"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Gostaria de saber as disciplinas que fazem parte do currículo do programa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633910357327",
+      "conditions": "@Areas:(Processamento de Sinais e Imagens)",
+      "dialog_node": "node_3_1633913805482",
+      "previous_sibling": "node_6_1633913472154"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1634004845912",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_3_1634005827861"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1633911190092",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_4_1633912497620",
+      "previous_sibling": "node_1_1633912418013"
+    },
+    {
+      "type": "standard",
+      "title": "Processo Seletivo Mestrado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lista de documentos necessários para inscrição no processo seletivo para o Mestrado:\n\nDuas cartas de recomendação (doc)\nCópia do diploma do Curso Superior devidamente registrado ou equivalente\nCópia do Histórico Escolar do Curso Superior\nCópia do RG - não é aceita a CNH\nCópia do CPF ou apresentar o Comprovante de Inscrição (Acesse o site da Receita Federal)\nCópia da Certidão de Nascimento ou Casamento\nCópia do comprovante de residência\nCurriculum Vitae atualizado\nUma foto recente.\n___\nFicha de inscrição: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/md/2020/pge_01-0-formula%CC%81rio-de-inscric%CC%A7a%CC%83o.doc\n___\nPara se inscrever no programa de Mestrado, você deve enviar os documentos acima e a ficha de inscrição preenchida para o e-mail: ipgss@fei.edu.br\n___\nPara datas de inscrição e outras informações, por favor acessar:\nhttps://portal.fei.edu.br/mestrado-e-doutorado-em-engenharia-eletrica#ps"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633997396530",
+      "conditions": "#ProcessoSeletivoMestrado",
+      "dialog_node": "node_4_1633997624717",
+      "previous_sibling": "node_9_1633997622927"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "parent": "node_9_1633997622927",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_4_1633998893191"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Paulo Sérgio Silva Rodrigues\nÁrea: Processamento de Sinais e Imagens\n\nTópicos de Pesquisa\n\n• Visão Computacional e Reconhecimento de Padrões Visuais\n• Análise e Processamento de Imagens\n• Realidade Virtual\n• Realidade Aumentada\npsergio@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Paulo Sérgio Silva Rodrigues)",
+      "dialog_node": "node_4_1634004893964",
+      "previous_sibling": "node_8_1634004873850"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1634003823532",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_4_1634005234526"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1634004443836",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_4_1634005275690"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1634004702200",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_4_1634005537985"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1634004702200",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_4_1634005539589",
+      "previous_sibling": "node_4_1634005537985"
+    },
+    {
+      "type": "standard",
+      "title": "Não",
+      "parent": "node_2_1633909061306",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_5_1633910061784",
+      "previous_sibling": "node_9_1633910003715"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1633914715687",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_5_1633915676139"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Renato Camargo Giacomini\nÁrea: Nanoeletrônica e Circuitos Integrados\n\nTópicos de Pesquisa\n\n• Projeto de Circuitos Integrados\n• Desenvolvimento de Sensores Semicondutores\n• Aplicação de Inteligência Artificial no Projeto de Dispositivos Eletrônicos\n• Projeto de Sistemas Eltrônicos para Energia e Tração Veicular\nrenato@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Renato Camargo Giacomini)",
+      "dialog_node": "node_5_1634004558374",
+      "previous_sibling": "node_1_1634004504094"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Guilherme Alberto Wachs Lopes\nÁrea: Inteligência Artificial Aplicada à Automação e Robótica\n\nTópicos de Pesquisa\n\n• Processamento de Linguagem Natural\n• Processamento Digital de Imagens\n• Internet das Coisas\n• Redes Complexas\n• Aprendizagem de Máquina\ngwachs@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Guilherme Alberto Wachs Lopes)",
+      "dialog_node": "node_5_1634004736235",
+      "previous_sibling": "node_10_1634004702200"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1634004586976",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_5_1634005426285"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As linhas de pesquisa disponíveis em Nanoeletrônica e Circuitos Integrados são:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "CARACTERIZAÇÃO ELÉTRICA DE DISPOSITIVOS ELETRÔNICOS\n\nSIMULAÇÃO E MODELAGEM ANALÍTICA DE DISPOSITIVOS ELETRÔNICOS\n\nPROJETO DE CIRCUITOS INTEGRADOS DEDICADOS"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Gostaria de saber as disciplinas do programa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633910357327",
+      "conditions": "@Areas:(Nanoeletrônica e Circuitos Integrados)",
+      "dialog_node": "node_6_1633911190092"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As linhas de pesquisa disponíveis em Inteligência Artificial Aplicada à Automação e Robótica são:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "RACIOCÍNIO AUTOMÁTICO E APRENDIZADO DE MÁQUINA\n\nROBÓTICA INTELIGENTE\n\nSISTEMAS INTELIGENTES E INTERATIVOS"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Gostaria de saber as disciplinas do programa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633910357327",
+      "conditions": "@Areas:(Inteligência Artificial Aplicada à Automação e Robótica)",
+      "dialog_node": "node_6_1633913472154",
+      "previous_sibling": "node_6_1633911190092"
+    },
+    {
+      "type": "standard",
+      "title": "Mensalidade Bolsas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O valor para da mensalidade (Mestrado e Doutorado): R$ 2.265,00\n\nPara mais informações sobre mensalidade e bolsas acesse:\nhttps://portal.fei.edu.br/mestrado-e-doutorado-em-engenharia-eletrica#mb\n\nPara informações sobre o programa Crédito Educativo acesse:\nhttps://portal.fei.edu.br/credito-educativo-para-pos-graduacao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910150261",
+      "conditions": "#MensalidadeBolsas",
+      "dialog_node": "node_6_1633999266439",
+      "previous_sibling": "node_9_1633997396530"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "parent": "node_6_1633999266439",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_6_1633999478741"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rodrigo Trevisoli Doria\nÁrea: Nanoeletrônica e Circuitos Integrados\n\nTópicos de Pesquisa\n\n• Confiabilidade em Dispositivos Semicondutores\n• Simulação e Caracterização de Transistores SOI Avançados\n• Células Solares\nrtdoria@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Rodrigo Trevisoli Doria)",
+      "dialog_node": "node_6_1634004586976",
+      "previous_sibling": "node_5_1634004558374"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ivandro Sanches\nÁrea: Processamento de Sinais e Imagens\n\nTópicos de Pesquisa\n\n• Autenticação de Locutor\n• Processamento do Sinal de Voz\n• Reconhecimento Automático de Fala\n• Filtragem Espacial via Arranjo de Microfones\n• Extração de Características Paralinguísticas no Sinal de Voz\nisanches@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Ivandro Sanches)",
+      "dialog_node": "node_6_1634004762073",
+      "previous_sibling": "node_5_1634004736235"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1634004586976",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_6_1634005429912",
+      "previous_sibling": "node_5_1634005426285"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1634004736235",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_6_1634005572201"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1634004762073",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_6_1634005679916"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1634004762073",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_6_1634005681479",
+      "previous_sibling": "node_6_1634005679916"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1634004794435",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_6_1634005746709"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1634004794435",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_6_1634005748246",
+      "previous_sibling": "node_6_1634005746709"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1634004873850",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_6_1634005846326"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1634004873850",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_6_1634005859369",
+      "previous_sibling": "node_6_1634005846326"
+    },
+    {
+      "type": "standard",
+      "title": "Fim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até logo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#Novaconsulta",
+      "dialog_node": "node_7_1633910212462",
+      "previous_sibling": "node_3_1633909228934"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633912418013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_7_1633915755632"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1634004443836",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_7_1634005282831",
+      "previous_sibling": "node_4_1634005275690"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1634004558374",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_7_1634005344855",
+      "previous_sibling": "node_8_1634005342530"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1633913472154",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_8_1633914717603",
+      "previous_sibling": "node_2_1633914715687"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1633913805482",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_8_1633914892473",
+      "previous_sibling": "node_1_1633914864866"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "parent": "node_4_1633997624717",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_8_1633998974269"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Plinio Thomaz Aquino Júnior\nÁrea: Inteligência Artificial Aplicada à Automação e Robótica\n\nTópicos de Pesquisa\n\n• Interação Humano-Robô\n• Robótica de Serviço\n• Interfaces Inteligentes e Adaptativas\n• Sensoriamento e Compartamento Humano em Ambientes Interativos\n• Perfil e Papel Adaptativo de Usuário\n• Modelos de UX (User Experience)\n• Sensoriamento Inteligente e IOT Aplicado na Agricultura\n• Robótica Móvel Autônoma Aplicada na Agricultura\nplinio.aquino@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Plinio Thomaz Aquino Júnior)",
+      "dialog_node": "node_8_1634004443836",
+      "previous_sibling": "node_2_1634003823532"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Paulo Eduardo Santos\nÁrea: Inteligência Artificial Aplicada à Automação e Robótica\n\nTópicos de Pesquisa\n\n• Representação de Conhecimento\n• Robótica Cognitiva\n• Raciocínio Espacial\npsantos@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Paulo Eduardo Santos)",
+      "dialog_node": "node_8_1634004873850",
+      "previous_sibling": "node_10_1634004845912"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1634004504094",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_8_1634005315056",
+      "previous_sibling": "node_9_1634005312222"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1634004558374",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_8_1634005342530"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1634004893964",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_8_1634005880082",
+      "previous_sibling": "node_9_1634005868797"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sobre qual professor gostaria de saber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1633909061306",
+      "conditions": "#Sim",
+      "dialog_node": "node_9_1633910003715"
+    },
+    {
+      "type": "folder",
+      "parent": "node_3_1633909228934",
+      "conditions": "#Docente || #Inscricao || #LinhaPesquisa || #MensalidadeBolsas",
+      "dialog_node": "node_9_1633910150261"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1633912418013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_9_1633915756917",
+      "previous_sibling": "node_7_1633915755632"
+    },
+    {
+      "type": "standard",
+      "title": "Processo Seletivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deseja se inscrever no processo seletivo do Mestrado ou Doutorado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910150261",
+      "conditions": "#Inscricao",
+      "dialog_node": "node_9_1633997396530",
+      "previous_sibling": "node_1_1633910357327"
+    },
+    {
+      "type": "standard",
+      "title": "Processo Seletivo Doutorado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lista de documentos necessários para inscrição no processo seletivo para o Doutorado:\n\nCópias dos Diplomas do Curso Superior e do Curso de Mestrado*\nCópias dos Históricos Escolares do Curso Superior e do Curso de Mestrado*\nCurriculum Lattes atualizado\n1 foto recente\nPGE - 15 Solicitação Orientador - Clique aqui\nCópia do RG – não é aceito o CNH*\nCópia do CPF OU apresentar o Comprovante de Inscrição (Acesse o site da Receita Federal)*\nCópia da Certidão de Nascimento OU Casamento*\nCópia do comprovante de residência\n___\nFicha de inscrição: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/md/2020/pge_01-0-formula%CC%81rio-de-inscric%CC%A7a%CC%83o-doutorado-ele%CC%81trica-vigente.doc\n___\nPara se inscrever no programa de Doutorado, você deve enviar os documentos acima e a ficha de inscrição preenchida para o e-mail: ipgss@fei.edu.br\n___\nPara datas de inscrição e outras informações, por favor acessar:\nhttps://portal.fei.edu.br/mestrado-e-doutorado-em-engenharia-eletrica#ps"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633997396530",
+      "conditions": "#ProcessoSeletivoDoutorado",
+      "dialog_node": "node_9_1633997622927"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maria Claudia Ferrari de Castro\nÁrea: Processamento de Sinais e Imagens\n\nTópicos de Pesquisa\n\n• Tecnologia Assistiva\n• Processamento de EMG e EEG\n• Aprendizado de Máquina e Reconhecimento de Padrões\n• Estimulação Elétrica Neuromuscular\n• Próteses e Órteses\nmclaudia@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1633910003715",
+      "conditions": "@Professores:(Maria Claudia Ferrari de Castro)",
+      "dialog_node": "node_9_1634004824962",
+      "previous_sibling": "node_2_1634004794435"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1634004504094",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_9_1634005312222"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1634004631639",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_9_1634005476270",
+      "previous_sibling": "node_1_1634005474620"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1634004736235",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_9_1634005573937",
+      "previous_sibling": "node_6_1634005572201"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1634004824962",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_9_1634005797169",
+      "previous_sibling": "node_2_1634005793056"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1634004845912",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1633910212462"
+      },
+      "conditions": "#Não",
+      "dialog_node": "node_9_1634005833922",
+      "previous_sibling": "node_3_1634005827861"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1634004893964",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1633909228934"
+      },
+      "conditions": "#Sim",
+      "dialog_node": "node_9_1634005868797"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Pós-graduação FEI",
+  "language": "pt-br",
+  "description": "Assistente para tirar dúvidas em relação ao programa de pós-graduação da FEI"
+}
